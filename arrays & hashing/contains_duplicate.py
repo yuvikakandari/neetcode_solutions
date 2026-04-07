@@ -9,4 +9,11 @@ class Solution:
             hashset.add(n)
 
         return False
-    
+
+"""
+    Approach:
+    Use a hash set to keep track of elements already seen.
+    If an element already exists in the set, a duplicate is found.
+
+    Time Complexity: O(n)
+"""
