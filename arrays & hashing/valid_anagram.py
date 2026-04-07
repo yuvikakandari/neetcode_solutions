@@ -11,3 +11,12 @@ class Solution:
             if countS[a]!=countT.get(a,0):
                 return (False)
         return (True)
+    
+"""
+Approach:
+anagram means that both sets must be of same length and set t must consist of same characters as set s and in the same frequnecy.
+first we create hash maps of both sets.
+we then compare frequency of each character in their hashmaps.
+in the hashmap, the key is the character, the value is its frequency of occurance.
+.get()is used to give us a default valjue incase specified key does not exist
+"""
